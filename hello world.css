@@ -1,0 +1,170 @@
+body, html {
+  width: 100%;
+  margin: 0;
+}
+
+.im {
+  background-image: url("lauren-mancke-60627-unsplash.jpg");
+  height: 100%; 
+  width: 100%;
+
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  left: 00%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.name{
+    color:black;
+    font-size: 3vw;
+    font-family: 'Kaushan Script', cursive;
+    transition: 0.4s;
+    margin: 0;
+    
+  }
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    justify-content: center;
+    margin-right: auto;
+    transition: 0.1s;
+    height: 2vw;
+
+} 
+
+
+.list{
+
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.45vw;  
+  margin: .8vw;
+  transition: 0.2s;
+  padding: 0.55vw;
+}
+
+a{
+  text-decoration:underline transparent;
+  color:black;
+  transition: 1s;
+}
+
+a:hover{
+  color:black;
+  text-decoration-color: black;
+}
+
+
+.subtitle{
+    color:black;
+    font-size:1.75vw;
+    font-family: 'Kaushan Script', cursive;
+    transition: 0.5s;
+    margin: 0px;
+  }
+.qw
+{
+  
+  position: absolute;
+  bottom: 100px;
+  text-align: center;
+
+}
+
+.qw{
+  width:100%;
+}
+
+
+@media all and (max-width: 1200px) and (min-width: 768px)
+{
+  .name
+  {
+    font-size: 4.5vw;
+  }  
+
+  .subtitle
+  {
+    font-size: 2.5vw;
+  }
+
+  .flexbox
+  {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .list
+  {
+    font-size: 2vw;
+    padding: 1vw
+  }
+  
+  
+}
+@media all and (max-width:768px) and (min-width:480px)
+{
+  .name
+  {
+    font-size: 8vw;
+    top: 72%;
+
+  }  
+
+  .subtitle
+  {
+    font-size: 4vw;
+    top: 84%;
+  }
+
+  .flexbox
+  {
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0.2em;
+  }
+  .list
+  {
+    font-size: 3.5vw;
+    padding: 0.85vw;
+  }
+  a:hover
+  {
+
+  }
+}
+
+@media only screen and (max-width: 480px)
+{
+  .name
+  {
+    font-size: 9vw;
+  }  
+
+  .subtitle
+  {
+    font-size: 5vw;
+  }
+
+  .flexbox
+  {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .list
+  {
+    font-size: 4vw;
+    padding: 2vw;
+  }
+  a.hover
+  {
+    
+  }
+}

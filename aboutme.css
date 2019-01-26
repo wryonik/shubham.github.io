@@ -1,0 +1,95 @@
+.di
+{
+    display: flex;
+    max-width: 100vh;
+    align-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.para
+{
+    font-family: 'Bad Script', cursive;
+    font-size: 3vh;
+}
+
+.name
+{
+
+    font-family: 'Handlee', cursive;
+    font-size: 5vh;
+}
+
+.abm
+{
+    
+    font-size: 4vh;
+
+}
+
+
+
+.footer {
+  background-color: rgb(59, 58, 58);
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0.75em;
+}
+
+.header
+{
+    display: flex;
+    background-color: rgb(15, 105, 22);
+    color : white;
+    text-align: left;
+    font-size: 2.5em;
+    flex-direction: row;
+    padding-left: 1em
+}
+
+.image
+{
+
+    transition: 0.2s;
+}
+
+.image:hover
+{
+    transform: scale(2.5)
+}
+
+.i
+{
+    text-align: center;
+    padding-top: 1em
+}
+
+
+@media all and (max-width:896px)
+{
+    .di{
+        width:90%; 
+    }
+    .para{
+        font-size: 5vw;
+    }
+    .abm{
+        font-size: 5.5vw;
+    }
+    .header
+    {
+        font-size: 6vw;
+    }
+    .footer
+    {
+        font-size: 4vw;
+        padding: 0.65em;
+    }
+    .image:hover
+    {
+        transform: scale(1.0)
+    }
+}

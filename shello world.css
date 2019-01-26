@@ -1,0 +1,60 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.im {
+  background-color: black;
+  height: 100%; 
+  width: 100%;
+  position: fixed;
+  left: 00%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.name{
+    color:white;
+    font-size: 5vh;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    position: fixed;
+    top: 72%;
+    
+    
+    
+  }
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    margin-right: auto;
+} 
+
+
+.list{
+
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.5vh;  
+  margin: 1.5vh;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(236, 236, 226)
+}
+
+.subtitle{
+    color:white;
+    font-size:2.75vh;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    position: fixed;
+    top: 82%;
+    
+  }
